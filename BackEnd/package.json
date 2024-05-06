@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MANAS-CHARCHI/CollegeProject.git"
+  },
+  "keywords": [
+    "Backend",
+    "part"
+  ],
+  "author": "Manas Charchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MANAS-CHARCHI/CollegeProject/issues"
+  },
+  "homepage": "https://github.com/MANAS-CHARCHI/CollegeProject#readme",
+  "dependencies": {
+    "cars": "^1.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.0",
+    "nodemon": "^3.1.0"
+  }
+}
