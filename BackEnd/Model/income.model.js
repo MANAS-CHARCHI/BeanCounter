@@ -1,6 +1,11 @@
 const mongoose=require('mongoose')
 
 const IncomeSchema=new mongoose.Schema({
+    // by:{
+    //     type:String,
+    //     required:false,
+    //     default:"data"
+    // },
     title:{
         type: String,
         required:true,
